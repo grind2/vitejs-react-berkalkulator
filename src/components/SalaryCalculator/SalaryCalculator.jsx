@@ -19,7 +19,7 @@ const SalaryCalculator = ({
 }) => {
   return (
     <>
-      <Tabs value={currentTab} className="w-[800px]">
+      <Tabs value={currentTab} className="w-[600px]">
         <TabsList className="grid w-full grid-cols-5">
           {tabtext.map((item, index) => (
             <TabsTrigger key={index} value={index}>

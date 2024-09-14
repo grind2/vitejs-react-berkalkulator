@@ -12,7 +12,7 @@ const HouseholdSalaryCalculator = () => {
 
   return (
     <>
-      <main className="flex">
+      <main className="h-screen flex items-center justify-center">
         <SalaryCalculator
           currentTab={currentTab}
           setCurrentTab={setCurrentTab}
